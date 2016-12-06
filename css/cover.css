@@ -16,7 +16,7 @@ a:hover {
 .btn-default:focus {
   color: #000;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #C0D9AF;
+  background-color: #fff;
   padding: 10px;
   font-size: 18px;
 }
@@ -63,7 +63,7 @@ li {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: #C0D9AF;
+  background-color: #fff;
   color: #000080;
 }
 
@@ -81,28 +81,28 @@ li {
 
 #exTab1 .tab-content {
   color : black;
-  background-color: #C0D9AF;
+  background-color: #fff;
   padding : 5px 15px;
   border-radius: 0 8px 8px 8px;
 }
 
 #exTab2 .tab-content {
   color : black;
-  background-color: #C0D9AF;
+  background-color: #fff;
   padding : 5px 15px;
   border-radius: 8px;
 }
 
 #exTab3 .tab-content {
   color : white;
-  background-color: #C0D9AF;
+  background-color: #fff;
   padding : 5px 15px;
   border-radius: 8px;
 }
 
 #exTab2 h3 {
   color : black;
-  background-color: #C0D9AF;
+  background-color: #fff;
   padding : 5px 15px;
 }
 
@@ -206,7 +206,7 @@ img {
 }
 
 .masthead-nav > .active {
-  background-color: #C0D9AF;
+  background-color: #fff;
   border-radius: 8px;
   padding: 7px;
   color: #FFF;
