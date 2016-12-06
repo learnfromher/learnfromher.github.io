@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #000080;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -64,7 +64,7 @@ li {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   background-color: #fff;
-  color: #000080;
+  color: #000;
 }
 
 #exTab1 .nav-pills > li > a {
@@ -181,7 +181,7 @@ img {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #000080;
+  color: #000;
   text-decoration: none;
 }
 
@@ -190,7 +190,7 @@ img {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #000080;
+  color: #000;
 }
 
 .dropdown-toggle:hover {
@@ -198,7 +198,7 @@ img {
 }
 
 .dropdown-toggle:focus {
-  color: #000080;
+  color: #000;
 }
 
 .masthead-nav > li > a:hover,
