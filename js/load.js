@@ -7,6 +7,6 @@ $(function () {
 })
 
 $(function(){
-	$("#base").load("/menus/base.html");
+
 });
 
