@@ -48,17 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									Parameters
-								</li>
-								<li>
-									Recursion
-								</li>
-								<li>
-									Hashing
-								</li>
-								<li>
-									Regex
+								<li ng-repeat="concept in concepts">
+									<a role="menuitem" tabindex="-1" href="{{concept.url}}">{{concept.name}}</a>
 								</li>
 							</ul>
 						</td>

@@ -48,8 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									THING 1
+								<li ng-repeat="language in languages">
+									<a role="menuitem" tabindex="-1" href="{{language.url}}">{{language.name}}</a>
 								</li>
 							</ul>
 						</td>

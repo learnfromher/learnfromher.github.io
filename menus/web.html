@@ -48,8 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									THING 1
+								<li ng-repeat="web in webs">
+									<a role="menuitem" tabindex="-1" href="{{web.url}}">{{web.name}}</a>
 								</li>
 							</ul>
 						</td>

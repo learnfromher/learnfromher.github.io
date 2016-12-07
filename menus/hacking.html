@@ -48,8 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									THING 1
+								<li ng-repeat="hack in hacking">
+									<a role="menuitem" tabindex="-1" href="{{hack.url}}">{{hack.name}}</a>
 								</li>
 							</ul>
 						</td>

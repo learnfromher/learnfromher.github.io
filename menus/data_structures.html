@@ -48,8 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									THING 1
+								<li ng-repeat="data_structure in data_structures">
+									<a role="menuitem" tabindex="-1" href="{{data_structure.url}}">{{data_structure.name}}</a>
 								</li>
 							</ul>
 						</td>

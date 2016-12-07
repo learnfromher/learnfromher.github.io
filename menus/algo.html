@@ -48,8 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									THING 1
+								<li ng-repeat="algo in algos">
+									<a role="menuitem" tabindex="-1" href="{{algo.url}}">{{algo.name}}</a>
 								</li>
 							</ul>
 						</td>

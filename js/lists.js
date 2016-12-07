@@ -25,7 +25,7 @@ phonecatApp.controller('ListController', function PhoneListController($scope) {
   	}
   ];
 
-  $scope.algo = [
+  $scope.algos = [
 
   ];
 
@@ -45,8 +45,8 @@ phonecatApp.controller('ListController', function PhoneListController($scope) {
 
   ];
 
-  $scope.web = [
+  $scope.webs = [
 
   ];
-  
+
 });
