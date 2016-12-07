@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="phonecatApp">
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -11,10 +11,31 @@
 		<!-- Custom styles for this template -->
 		<link href="/css/cover.css" rel="stylesheet">
 
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+		<script> // Define the `phonecatApp` module
+			var phonecatApp = angular.module('phonecatApp', []);
+
+			// Define the `PhoneListController` controller on the `phonecatApp` module
+			phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
+			  $scope.phones = [
+			    {
+			      name: 'Nexus S',
+			      snippet: 'Fast just got faster with Nexus S.'
+			    }, {
+			      name: 'Motorola XOOM™ with Wi-Fi',
+			      snippet: 'The Next, Next Generation tablet.'
+			    }, {
+			      name: 'MOTOROLA XOOM™',
+			      snippet: 'The Next, Next Generation tablet.'
+			    }
+			  ];
+			});
+		</script>
+
 		<title>Learn From Her</title>
 	</head>
 
-	<body>
+	<body ng-controller="PhoneListController">
 		<div class="site-wrapper">
 	      <div class="site-wrapper-inner">
 	        <div class="cover-container">
@@ -42,6 +63,12 @@
 					<h1>The Basics</h1>
 					</center>
 					<p>1 + 2 = {{1 + 2}}</p>
+					<ul>
+					    <li ng-repeat="phone in phones">
+					      <span>{{phone.name}}</span>
+					      <p>{{phone.snippet}}</p>
+					    </li>
+					  </ul>
 					<hr>
 					<table><tr>
 						<td>
@@ -77,7 +104,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
 	<script src="http://www.w3schools.com/lib/w3data.js"></script>
 
     <script src="/js/load.js"></script>
