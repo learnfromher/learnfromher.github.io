@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="listApp">
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -10,11 +10,14 @@
 
 		<!-- Custom styles for this template -->
 		<link href="/css/cover.css" rel="stylesheet">
+		
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+		<script src="/js/lists.js"></script>
 
 		<title>Learn From Her</title>
 	</head>
 
-	<body>
+	<body ng-controller="ListController">
 		<div class="site-wrapper">
 	      <div class="site-wrapper-inner">
 	        <div class="cover-container">
@@ -45,20 +48,8 @@
 					<table><tr>
 						<td>
 							<ul>
-								<li>
-									<a role="menuitem" tabindex="-1" href="/tutorials/basics/eclipse.html">Eclipse</a>
-								</li>
-								<li>
-									<a role="menuitem" tabindex="-1" href="/tutorials/basics/command_line.html">Command Line</a>
-								</li>
-								<li>
-									<a role="menuitem" tabindex="-1" href="/tutorials/basics/bashrc.html">.bashrc</a>
-								</li>
-								<li>
-									<a role="menuitem" tabindex="-1" href="/tutorials/basics/vim.html">Vim</a>
-								</li>
-								<li>
-									<a role="menuitem" tabindex="-1" href="/tutorials/basics/github.html">Github</a>
+								<li ng-repeat="basic in basics">
+									<a role="menuitem" tabindex="-1" href="{{basic.url}}">{{basic.name}}</a>
 								</li>
 							</ul>
 						</td>

@@ -65,6 +65,16 @@ img {
   border-radius: 8px;
 }
 
+td {
+  vertical-align: top;
+  padding: 20px;
+}
+
+a {
+  color: #7D26CD;
+  font-weight: bold;
+}
+
 .top-image {
   width: 50px;
   display: inline;
