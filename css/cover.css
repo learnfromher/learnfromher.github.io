@@ -65,6 +65,11 @@ img {
   border-radius: 8px;
 }
 
+td {
+  vertical-align: top;
+  padding: 20px;
+}
+
 .top-image {
   width: 50px;
   display: inline;
