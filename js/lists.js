@@ -24,4 +24,29 @@ phonecatApp.controller('ListController', function PhoneListController($scope) {
   		url: '/tutorials/basics/github.html'
   	}
   ];
+
+  $scope.algo = [
+
+  ];
+
+  $scope.concepts = [
+
+  ];
+
+  $scope.data_structures = [
+
+  ];
+
+  $scope.hacking = [
+
+  ];
+
+  $scope.languages = [
+
+  ];
+
+  $scope.web = [
+
+  ];
+  
 });
