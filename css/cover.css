@@ -1,4 +1,4 @@
-/*
+x/*
  * Globals
  */
 
@@ -59,53 +59,6 @@ div {
 li {
   text-align: left;
 }
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  background-color: #fff;
-  color: #000;
-}
-
-#exTab1 .nav-pills > li > a {
-  border-radius: 8px 8px 0px 0px;
-}
-
-#exTab2 .nav-pills > li > a {
-  border-radius: 8px 8px 0px 0px;
-}
-
-#exTab3 .nav-pills > li > a {
-  border-radius: 8px 8px 0px 0px;
-}
-
-#exTab1 .tab-content {
-  color : black;
-  background-color: #fff;
-  padding : 5px 15px;
-  border-radius: 0 8px 8px 8px;
-}
-
-#exTab2 .tab-content {
-  color : black;
-  background-color: #fff;
-  padding : 5px 15px;
-  border-radius: 8px;
-}
-
-#exTab3 .tab-content {
-  color : white;
-  background-color: #fff;
-  padding : 5px 15px;
-  border-radius: 8px;
-}
-
-#exTab2 h3 {
-  color : black;
-  background-color: #fff;
-  padding : 5px 15px;
-}
-
 
 img {
   width: 625px;
