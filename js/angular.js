@@ -90,7 +90,7 @@ app.controller('Controller', function Controller($scope) {
   $scope.hacking = [
     {
       name: 'Lego Robot',
-      url: '/tutorials/hacking/lego_robots.html'
+      url: '/tutorials/hacking/lego_robot.html'
     },
     {
       name: 'Ardunio',
