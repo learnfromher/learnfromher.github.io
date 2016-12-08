@@ -35,19 +35,19 @@ app.controller('Controller', function Controller($scope) {
   $scope.concepts = [
     {
       name: 'Recursion',
-      url: '#'
+      url: '/tutorials/concepts/recursion.html'
     }, 
     {
       name: 'Parameters',
-      url: '#'
+      url: '/tutorials/concepts/parameters.html'
     },
     {
       name: 'Hashing',
-      url: '#'
+      url: '/tutorials/concepts/hashing.html'
     },
     {
       name: 'Regex',
-      url: '#'
+      url: '/tutorials/concepts/regex.html'
     }
 
   ];
@@ -55,100 +55,100 @@ app.controller('Controller', function Controller($scope) {
   $scope.data_structures = [
     {
       name: 'Arrays',
-      url: '#'
+      url: '/tutorials/data_structures/arrays.html'
     },
     {
       name: 'Linked Lists',
-      url: '#'
+      url: '/tutorials/data_structures/linked_lists.html'
     },
     {
       name: 'HashMap',
-      url: '#'
+      url: '/tutorials/data_structures/hash_map.html'
     },
     {
       name: 'TreeMap',
-      url: '#'
+      url: '/tutorials/data_structures/tree_map.html'
     },
     {
       name: 'Trees',
-      url: '#'
+      url: '/tutorials/data_structures/trees.html'
     },
     {
       name: 'Binary Search Trees',
-      url: '#'
+      url: '/tutorials/data_structures/binary_search_trees.html'
     },
     {
       name: 'Tries',
-      url: '#'
+      url: '/tutorials/data_structures/tries.html'
     },
     {
       name: 'Heaps',
-      url: '#'
+      url: '/tutorials/data_structures/heaps.html'
     }
   ];
 
   $scope.hacking = [
     {
       name: 'Lego Robot',
-      url: '#'
+      url: '/tutorials/hacking/lego_robots.html'
     },
     {
       name: 'Ardunio',
-      url: '#'
+      url: '/tutorials/hacking/ardunio.html'
     },
     {
       name: 'Raspberry Pi',
-      url: '#'
+      url: '/tutorials/hacking/raspberry_pi.html'
     },
     {
       name: 'Makey Makey',
-      url: '#'
+      url: '/tutorials/hacking/makey_makey.html'
     },
     {
       name: 'Myo',
-      url: '#'
+      url: '/tutorials/hacking/myo.html'
     }
   ];
 
   $scope.languages = [
     {
       name: 'Java',
-      url: '#'
+      url: '/tutorials/languages/java.html'
     },
     {
       name: 'C',
-      url: '#'
+      url: '/tutorials/languages/c.html'
     },
     {
       name: 'C++',
-      url: '#'
+      url: '/tutorials/languages/c_plus_plus.html'
     },
     {
       name: 'Perl',
-      url: '#'
+      url: '/tutorials/languages/perl.html'
     },
     {
       name: 'Python',
-      url: '#'
+      url: '/tutorials/languages/python.html'
     }
   ];
 
   $scope.webs = [
     {
       name: 'HTML',
-      url: '#'
+      url: '/tutorials/web/html.html'
     },
     {
       name: 'CSS',
-      url: '#'
+      url: '/tutorials/web/css.html'
     },
     {
       name: 'JavaScript',
-      url: '#'
+      url: '/tutorials/web/java_script.html'
     },
     {
       name: 'Angular',
-      url: '#'
+      url: '/tutorials/web/angular.html'
     },
 
   ];
