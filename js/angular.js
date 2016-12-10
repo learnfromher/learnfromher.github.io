@@ -2,6 +2,45 @@ var app = angular.module('app', []);
 
 // Define the `PhoneController` controller on the `phonecatApp` module
 app.controller('Controller', function Controller($scope) {
+  $scope.headers = [
+    {
+      name: 'Home',
+      url: '/index.html'
+    },
+    {
+      name: 'Basics',
+      url: '/menus/basics.html'
+    },
+    {
+      name: 'Concepts',
+      url: '/menus/concepts.html'
+    },
+    {
+      name: 'Data Structures',
+      url: '/menus/data_structures.html'
+    },
+    {
+      name: 'Languages',
+      url: '/menus/languages.html'
+    },
+    {
+      name: 'Web',
+      url: '/menus/web.html'
+    },
+    {
+      name: 'Hacking',
+      url: '/menus/hacking.html'
+    },
+    {
+      name: 'Algo',
+      url: '/menus/algo.html'
+    },
+    {
+      name: 'Contact',
+      url: '/contact.html'
+    }
+  ];
+
   $scope.basics = [
   	{
   		name: 'Eclipse',
