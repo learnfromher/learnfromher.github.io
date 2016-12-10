@@ -101,6 +101,18 @@ app.controller('Controller', function Controller($scope) {
       url: '/tutorials/data_structures/linked_lists.html'
     },
     {
+      name: 'ArrayLists',
+      url: ''
+    },
+    {
+      name: 'Stacks',
+      url: ''
+    },
+    {
+      name: 'Queues',
+      url: ''
+    },
+    {
       name: 'HashMap',
       url: '/tutorials/data_structures/hash_map.html'
     },
