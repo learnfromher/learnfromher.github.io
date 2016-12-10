@@ -26,7 +26,7 @@
 	              <h1 class="masthead-brand" display="inline"><b>Learn From Her</b></h1>
 	              <ul class="nav masthead-nav">
 	              	<li ng-repeat="header in headers">
-	              		<a class="{active: header.name == 'Home'}" href="{{header.url}}">{{header.name}}</a>
+	              		<a ng-class="{'active': header.name == 'Home'}" href="{{header.url}}">{{header.name}}</a>
 	              	</li>
 	              </ul>
 	            </div>
