@@ -106,15 +106,15 @@ app.controller('Controller', function Controller($scope) {
     },
     {
       name: 'ArrayLists',
-      url: ''
+      url: '/tutorials/data_structures/arraylists.html'
     },
     {
       name: 'Stacks',
-      url: ''
+      url: '/tutorials/data_structures/stacks.html'
     },
     {
       name: 'Queues',
-      url: ''
+      url: '/tutorials/data_structures/queues.html'
     },
     {
       name: 'HashMap',
