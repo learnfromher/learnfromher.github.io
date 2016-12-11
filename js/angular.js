@@ -42,6 +42,10 @@ app.controller('Controller', function Controller($scope) {
   ];
 
   $scope.basics = [
+    {
+      name: 'BlueJ',
+      url: '/tutorials/basics/bluej.html'
+    },
   	{
   		name: 'Eclipse',
   		url: '/tutorials/basics/eclipse.html'
