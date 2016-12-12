@@ -29,7 +29,6 @@ html,
 body {
   height: 100%;
   background-color: #EED2EE;
-  text-align: center;
 }
 body {
   color: #000;
@@ -126,7 +125,6 @@ a {
 
 /* Padding for spacing */
 .inner {
-  text-align: center;
   padding: 30px;
 }
 
